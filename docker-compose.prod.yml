@@ -17,7 +17,7 @@ services:
     build:
       context: .
       dockerfile: php.prod.dockerfile
-      restart: always
+    restart: always
  npm:
     image: node:current-alpine
     volumes: 
