@@ -12,6 +12,7 @@ services:
       - mysql
       - php
       - npm 
+      - composer
     restart: always
  php:
     build:
